@@ -1,0 +1,8 @@
+{
+	"recommendations": [
+		"vscodevim.vim",
+        "zhuangtongfa.material-theme",
+        "streetsidesoftware.code-spell-checker",
+        "PKief.material-icon-theme"
+	]
+}

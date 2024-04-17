@@ -1,0 +1,64 @@
+{
+    "workbench.startupEditor": "none",
+    "[python]": {
+      "editor.formatOnType": true,
+      "editor.defaultFormatter": "ms-python.python"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 13,
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.colorCustomizations": {
+
+    },
+    "editor.codeActionsOnSave": {},
+    "redhat.telemetry.enabled": true,
+    "editor.indentSize": "tabSize",
+    "terminal.integrated.automationProfile.osx": {},
+    "terminal.integrated.defaultProfile.osx": "bash",
+    "explorer.enableDragAndDrop": false,
+    "indentRainbow.includedLanguages": [
+      "python",
+      "yaml"
+    ],
+    "python.formatting.provider": "black",
+    "[sql]": {
+      "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "debug.allowBreakpointsEverywhere": true,
+    "git.confirmSync": true,
+    "editor.inlineSuggest.enabled": true,
+    "editor.tabCompletion": "on",
+    "vs-kubernetes": {
+      "vscode-kubernetes.helm-path.mac": "/Users/chenjam/.vs-kubernetes/tools/helm/darwin-arm64/helm",
+      "vscode-kubernetes.minikube-path.mac": "/Users/chenjam/.vs-kubernetes/tools/minikube/darwin-arm64/minikube"
+    },
+    "workbench.editor.enablePreview": false,
+    "github.copilot.enable": {
+      "*": true,
+      "plaintext": false,
+      "markdown": false,
+      "scminput": false
+    },
+    "cSpell.customDictionaries": {},
+    "go.toolsManagement.autoUpdate": true,
+    "go.goroot": "/opt/homebrew/opt/go/libexec",
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<Option>", "1"],
+        "command": "workbench.action.explorer.focus"
+      },
+      {
+        "before": ["<Option>", "2"],
+        "command": "workbench.action.focusActiveEditorGroup"
+      },
+      {
+        "before": ["<Option>", "3"],
+        "command": "workbench.action.terminal.focus"
+      }
+    ]
+}
